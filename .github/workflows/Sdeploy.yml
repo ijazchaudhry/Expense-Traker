@@ -36,4 +36,4 @@ jobs:
       run: npm install -g surge
       #Deploy surge
     - name: Deploy React App to Surge
-      run: surge ./ build tracker-app-ijaz.surge.sh -- token ${{secrets.MY_TOKEN}}
+      run: surge ./ build tracker-app-ijaz.surge.sh --token ${{secrets.MY_TOKEN}}
